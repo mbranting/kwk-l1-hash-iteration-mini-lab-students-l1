@@ -5,4 +5,4 @@ closet = [
   ]
   
   puts closet[0].class
-    
+  puts "hello".class
