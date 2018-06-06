@@ -21,5 +21,6 @@ shoes.push("vans")
 #to add something to an array in a specific location use name_of_the_array.insert(position -#, "what you want to add")
 #ex: 
 #arr.insert(2, 8)
-tops.insert(2, "T-shirt"
+tops.insert(2, "T-shirt")
+#to delete something in a specific location use .delete_at(position -#)
 puts closet 
