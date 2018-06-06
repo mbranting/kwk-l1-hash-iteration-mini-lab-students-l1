@@ -5,5 +5,4 @@ closet = {
 }
 want to add to tops
 closet["tops"] << "blouse"
-puts closet["tops"].insert(2, "strapless shirt")
-puts closet ["tops"]
+puts closet["tops"].insert(2,"strapless shirt")
