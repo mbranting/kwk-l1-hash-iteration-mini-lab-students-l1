@@ -40,9 +40,7 @@ def iterate_through_hash
   "Beijings" => "2008",
   "London" => "2012"
 }
-create_olympics_hash.keys = date
-create_olympics_hash.values = location
-puts "The #{date} summer olympics took place in #{location}"
+
 end
 puts iterate_through_hash
 
