@@ -40,7 +40,8 @@ def iterate_through_hash
   "Beijings" => "2008",
   "London" => "2012"
 }
-
+create_olympics_hash.each do |olympics|
+  
 end
 puts iterate_through_hash
 
