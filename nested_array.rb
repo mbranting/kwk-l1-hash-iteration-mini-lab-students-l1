@@ -16,4 +16,5 @@ closet = [tops, bottoms, shoes]
 # puts closet 
 
 shoes << "nike"
+shoes.push("vans")
 puts closet
