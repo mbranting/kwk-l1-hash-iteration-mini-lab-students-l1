@@ -12,6 +12,7 @@ create_olympics_hash = {
   "Beijings" => "2008",
   "London" => "2012"
 }
+puts create_olympics_hash
   # Implement this method so that it returns a hash with the data provided on README.md
 #puts create_olympics_hash
 
@@ -33,6 +34,13 @@ end
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+  create_olympics_hash = {
+  "Sydney" => "2000",
+  "Athens" => "2004",
+  "Beijings" => "2008",
+  "London" => "2012"
+}
+puts "The #{create_olympic"
 end
 
 def iterate_through_keys
