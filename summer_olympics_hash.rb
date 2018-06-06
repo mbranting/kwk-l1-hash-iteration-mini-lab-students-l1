@@ -40,14 +40,14 @@ def iterate_through_hash
   "Beijings" => "2008",
   "London" => "2012"
 }
-city = create_olympics_hash.keys
-date = create_olympics_hash.values
-create_olympics_hash.each do |city, date|
-  puts "The #{date} summer olympics took place in #{city}."
+  city = create_olympics_hash.keys
+  date = create_olympics_hash.values
+  create_olympics_hash.each do |city, date|
+    puts "The #{date} summer olympics took place in #{city}."
 end
 puts iterate_through_hash
 
-def iterate_through_keys
+# def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
-end
+
