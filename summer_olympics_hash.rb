@@ -1,11 +1,33 @@
+# |Place          | Year      |
+# | ------------- |:---------:|
+# | Sydney        | 2000      |
+# | Athens        | 2004      |
+# | Beijing       | 2008      |
+# | London        | 2012      |
 
-def create_olympics_hash
+
+create_olympics_hash = {
+  "Sydney" => "2000",
+  "Athens" => "2004",
+  "Beijings" => "2008",
+  "London" => "2012"
+}
   # Implement this method so that it returns a hash with the data provided on README.md
-end
+puts create_olympics_hash
 
 def add_a_key_value_pair
+  
+create_olympics_hash = {
+  "Sydney" => "2000",
+  "Athens" => "2004",
+  "Beijings" => "2008",
+  "London" => "2012"
+  "Atlanta" => "1996"
+}
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+  create_olympics_hash["Atlanta"] = "1996"
 end
+puts add_a_key_value_pair
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
