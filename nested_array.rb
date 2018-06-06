@@ -17,4 +17,7 @@ closet = [tops, bottoms, shoes]
 
 shoes << "nike"
 shoes.push("vans")
-puts closet
+
+#to add something to an array in a specific location use name_of_the_array.insert(position -#), "what you want to add"
+
+puts closet 
