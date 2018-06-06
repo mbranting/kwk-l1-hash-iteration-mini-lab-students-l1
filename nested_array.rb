@@ -13,4 +13,4 @@
   
   
 closet = [tops, bottoms, shoes]
-puts closet
+puts closet 
