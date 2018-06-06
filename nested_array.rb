@@ -24,3 +24,4 @@ shoes.push("vans")
 tops.insert(2, "T-shirt")
 #to delete something in a specific location use .delete_at(position -#)
 puts closet 
+
