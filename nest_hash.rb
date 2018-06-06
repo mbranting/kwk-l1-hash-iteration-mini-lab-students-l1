@@ -4,6 +4,7 @@ closet = {
   "shoes" => ["nike", "vans", "flip flops", "heels", "adidas"]
 }
 #want to add to tops
-closet["tops"] << "blouse"
-puts closet ["tops"]
+#closet["tops"] << "blouse"
+#puts closet ["tops"]
 closet["tops"].insert("blouse")
+puts closet ["tops"]
