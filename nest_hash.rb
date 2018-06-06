@@ -7,3 +7,6 @@ closet = {
 closet["tops"] << "blouse"
 closet["tops"].insert(2,"strapless shirt")
 puts closet["tops"]
+
+closet ["shoes"]["misc."] = ["cheetah slippers", "rainboots"]
+puts closet
