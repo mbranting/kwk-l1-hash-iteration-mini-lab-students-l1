@@ -13,7 +13,7 @@ create_olympics_hash = {
   "London" => "2012"
 }
   # Implement this method so that it returns a hash with the data provided on README.md
-puts create_olympics_hash
+#puts create_olympics_hash
 
 def add_a_key_value_pair
   
