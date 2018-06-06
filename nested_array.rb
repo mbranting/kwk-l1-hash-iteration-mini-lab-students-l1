@@ -12,5 +12,5 @@
   shoes = ["sneakers", "heels", "flats"]
   
   
-closet[tops, bottoms, shoes]
+closet = [tops, bottoms, shoes]
 puts closet
