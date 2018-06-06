@@ -6,3 +6,4 @@ closet = {
 #want to add to tops
 closet["tops"] << "blouse"
 puts closet ["tops"]
+closet["tops"].insert("blouse")
