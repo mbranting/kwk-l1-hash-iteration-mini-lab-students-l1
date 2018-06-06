@@ -13,4 +13,7 @@
   
   
 closet = [tops, bottoms, shoes]
-puts closet 
+# puts closet 
+
+shoes << "nike"
+puts closet
