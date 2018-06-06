@@ -41,7 +41,7 @@ def iterate_through_hash
   "London" => "2012"
 }
 create_olympics_hash.each do |olympics|
-  
+  statement = olymics 
 end
 puts iterate_through_hash
 
