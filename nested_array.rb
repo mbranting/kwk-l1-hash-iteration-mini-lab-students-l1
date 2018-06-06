@@ -18,6 +18,8 @@ closet = [tops, bottoms, shoes]
 shoes << "nike"
 shoes.push("vans")
 
-#to add something to an array in a specific location use name_of_the_array.insert(position -#), "what you want to add"
-
+#to add something to an array in a specific location use name_of_the_array.insert(position -#, "what you want to add")
+#ex: 
+#arr.insert(2, 8)
+tops.insert(2, "T-shirt"
 puts closet 
