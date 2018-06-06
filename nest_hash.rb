@@ -3,5 +3,6 @@ closet = {
   "bottoms" => ["jeans", "skirts", "capris", "shorts"],
   "shoes" => ["nike", "vans", "flip flops", "heels", "adidas"]
 }
-#just want tops
+#want to add to tops
+closet["tops"] << "tank tops"
 puts closet ["tops"]
