@@ -40,8 +40,10 @@ def iterate_through_hash
   "Beijings" => "2008",
   "London" => "2012"
 }
-create_olympics_hash.each do |olympics|
-  puts 
+city = create_olympics_hash.keys
+date = create_olympics_hash.values
+create_olympics_hash.each do |city, date|
+  puts "The #{date} summer olympics took place in #{city}."
 end
 puts iterate_through_hash
 
