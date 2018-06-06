@@ -4,4 +4,4 @@ closet = {
   "shoes" => ["nike", "vans", "flip flops", "heels", "adidas"]
 }
 #just want tops
-puts closet ("tops")
+puts closet ["tops"]
