@@ -40,7 +40,7 @@ def iterate_through_hash
   "Beijings" => "2008",
   "London" => "2012"
 }
-puts "The #{create_olympic"
+puts "The #{create_olympics_hash.keys} summer olympics took place in #{create_olympics_hash.values}"
 end
 
 def iterate_through_keys
