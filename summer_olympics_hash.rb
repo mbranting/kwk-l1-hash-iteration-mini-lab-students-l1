@@ -24,6 +24,7 @@ create_olympics_hash = {
   "London" => "2012"
 }
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+  
   create_olympics_hash["Atlanta"] = "1996"
 end
 puts add_a_key_value_pair
