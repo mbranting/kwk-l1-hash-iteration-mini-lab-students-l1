@@ -4,5 +4,5 @@ closet = [
   ["sneakers", "heels", "flats"]
   ]
   
-  puts closet.class
+  puts closet[0]
   puts "hello".class
